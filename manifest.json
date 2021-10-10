@@ -1,0 +1,28 @@
+{
+    "name": "Facebook post - auto like",
+    "version": "2021.10.6",
+    "manifest_version": 2,
+    "web_accessible_resources": [
+        "content.css",
+        "fonts/roboto-latin-400.woff2",
+        "fonts/roboto-latin-700.woff2"
+    ],
+    "description": "Facebook post auto like",
+    "homepage_url": "https://storage.dpksamir.com/",
+    "icons": {
+        "16": "images/favicon16x16.png",
+        "64":"images/favicon64x64.png",
+        "128": "images/favicon128x128.png"
+    },
+    "browser_action": {
+        "name": "Click to start"
+    },
+    "background": {
+        "page": "background.html"
+    },
+    "permissions": [
+        "https://*.facebook.com/*",
+        "storage",
+        "tabs"
+    ]
+}
